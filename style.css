@@ -1,0 +1,45 @@
+body{
+    
+    background-color: black;
+    color: rgb(122, 174, 122);
+}
+.container{
+    border: 2px solid rgb(122, 174, 122);
+    border-radius: 12px;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+.scores{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.game-result{
+    margin: auto;
+    font-size: 36px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    border-radius: 8px;
+    border: 2px solid rgb(122, 174, 122);
+    background-color: transparent;
+    color: rgb(122, 174, 122);
+    padding: 10px 20px;
+    font-size: 24px;
+}
