@@ -28,6 +28,7 @@ body{
 .game-result{
     margin: auto;
     font-size: 36px;
+    text-align: center;
 }
 
 .button-container{
